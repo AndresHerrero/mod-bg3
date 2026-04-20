@@ -77,3 +77,26 @@ Cierra BG3 Mod Manager. Inicia Baldur's Gate 3 desde Steam con normalidad, equí
 * Pásales tu mod modificado final.
 * Ellos deben descargar e instalar el **BG3 Mod Manager**, hacer el Import, arrastrar el mod a la izquierda *"Active"* y exportar al juego (botón de la hoja verde). 
 * Si todos tenéis la lista *"Active Mods"* sincronizada, el juego no pondrá problemas de conexión y escucharéis exactamente la misma música durante las tonadas.
+
+---
+
+### 🎮 Cómo jugar con tu mod en la Steam Deck
+El archivo `.pak` que has creado es 100% universal y su audio modificado funciona de forma nativa en la Steam Deck sin problemas.
+
+Dado que BG3 Mod Manager es un programa de Windows (`.exe`), la forma más fácil para jugar en la Deck no es instalando el mod manager ahí, sino **exportando lo que ya has montado en tu PC de sobremesa**. Tienes dos vías:
+
+#### Vía A: Transferencia Manual (Recomendada)
+Como ya ordenaste el mod en tu PC, tu ordenador ya generó el archivo maestro donde dice "cargar este mod". Solo copia dos archivos de tu PC a la Steam Deck (puedes usar KDE Connect, Warpinator, o un USB):
+
+1. **Tu mod:** Copia el archivo `ThroughFireAndFlames.pak`  
+   👉 Ruta destino en Desktop Mode de Steam Deck:  
+   `/home/deck/.local/share/Steam/steamapps/compatdata/1086940/pfx/drive_c/users/steamuser/AppData/Local/Larian Studios/Baldur's Gate 3/Mods/`
+2. **El archivo de texto de ordenación (Load Order):** Copia tu archivo `modsettings.lsx` de tu PC.  
+   👉 Ruta destino en Desktop Mode de Steam Deck:  
+   `/home/deck/.local/share/Steam/steamapps/compatdata/1086940/pfx/drive_c/users/steamuser/AppData/Local/Larian Studios/Baldur's Gate 3/PlayerProfiles/Public/`
+
+#### Vía B: Gestor Nativo del Juego (Con el Parche 7)
+1. Simplemente copia el `.pak` a la larga ruta descrita en la Vía A.
+2. Inicia Baldur's Gate 3 normalmente en la consola en Modo Juego. 
+3. Dirígete a la opción de **"Administrador de Mods"** -> **"Ajustes" / "Instalados"** (arriba del todo).
+4. El juego escaneará los mods manuales metidos en la carpeta y te permitirá marcar con un ✅ (tick) tu mod, activándolo directamente para esa sesión en Steam Deck.
