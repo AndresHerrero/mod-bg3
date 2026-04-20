@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Paths
 MOD_DIR = Path("ThroughFireAndFlamesMod")
-SOUND_DIR = MOD_DIR / "Public" / "ThroughFireAndFlames" / "Assets" / "Sound"
+SOUND_DIR = MOD_DIR / "Public" / "Shared" / "Assets" / "Sound"
 TEMP_DIR = Path("_temp")
 WEM_FILE = TEMP_DIR / "con_valor.wem"
 BUILD_DIR = Path("_build")
