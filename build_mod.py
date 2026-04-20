@@ -47,7 +47,7 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
 
 SCRIPT_DIR   = Path(__file__).parent.resolve()
 MOD_DIR      = SCRIPT_DIR / "ThroughFireAndFlamesMod"
-SOUND_DIR    = MOD_DIR / "Public" / "ThroughFireAndFlames" / "Assets" / "Sound"
+SOUND_DIR    = MOD_DIR / "Public" / "Shared" / "Assets" / "Sound"
 BUILD_DIR    = SCRIPT_DIR / "_build"
 TEMP_DIR     = SCRIPT_DIR / "_temp"
 
