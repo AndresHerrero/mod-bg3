@@ -1,0 +1,14 @@
+# Ignore build directories
+_temp/
+_build/
+tools/
+
+# Ignore large audio output files
+*.wav
+*.mp3
+*.wem
+*.pak
+*.zip
+
+# Ignore specific mod tool outputs
+ThroughFireAndFlamesMod/Public/ThroughFireAndFlames/Assets/Sound/*.wem
